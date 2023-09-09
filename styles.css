@@ -5,11 +5,15 @@
     overflow: hidden;
     /* Hide overflow #333*/
     background-color: transparent;
+    width: 100%;
+    border: 3px whitesmoke;
     /* Dark background color */
 }
 
 /* Style the navigation bar links */
 .navbar a {
+    margin-left: auto;
+    margin-right: auto;
     float: left;
     /* Make sure that the links stay side-by-side */
     display: block;
@@ -18,7 +22,7 @@
     /* White text color */
     text-align: center;
     /* Center the text */
-    /* padding: 14px 20px; */
+    padding: 14px 20px;
     /* Add some padding */
     text-decoration: none;
     /* Remove underline */
