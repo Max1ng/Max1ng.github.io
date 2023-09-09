@@ -1,5 +1,7 @@
 /* Style the top navigation bar */
 .navbar {
+    padding: 0px;
+    margin: 0px;
     overflow: hidden;
     /* Hide overflow */
     background-color: #333;
@@ -20,6 +22,7 @@
     /* Add some padding */
     text-decoration: none;
     /* Remove underline */
+    background-color: gray;
 }
 
 /* Right-aligned link */
