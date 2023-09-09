@@ -42,7 +42,7 @@
     text-align: center;
     background-image: url(test.jpg);
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center;
     color: whitesmoke;
     font-size: 30px;
 }
