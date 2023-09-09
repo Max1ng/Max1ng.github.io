@@ -43,14 +43,14 @@
     background-image: url(test.jpg);
     background-repeat: no-repeat;
     background-position: center top;
-    color: white;
+    color: whitesmoke;
     font-size: 30px;
 }
 
 
 .body {
     margin: 0;
-    background-color: antiquewhite;
-
+    background-color: black;
+    color: whitesmoke;
     text-align: center;
 }
