@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-image: linear-gradient(to bottom left, #161229, #0207a6);
+    background-image: linear-gradient(to bottom left, #000000, #32214a);
     background-size: cover;
     scroll-behavior: smooth;
 }
@@ -17,7 +17,7 @@ body {
     /* Change the background color when fixed */
     width: 100%;
     border-bottom: 1px solid whitesmoke;
-    /*z-index: 100; /* Ensure it appears above other content */
+    z-index: 100; /* Ensure it appears above other content */
 }
 
 .navbar {
@@ -79,6 +79,7 @@ body {
     
 } */
 .linkedin {
+    box-shadow: none;
     padding: 0;
     margin: 0;
     align-items: center;
@@ -95,6 +96,7 @@ body {
     height: 50px;
 }
 .github {
+    box-shadow: none;
     padding: 0;
     margin: 0;
     align-items: center;
