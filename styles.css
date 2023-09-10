@@ -75,13 +75,13 @@ html, body {
     
 } */
 
-#home h1,
+
 #about h1,
 #experience h1,
 #projects h1 {
     font-size: 60px;
 }
-#home p,
+
 #about p,
 #experience p,
 #projects p {
@@ -89,7 +89,7 @@ html, body {
 }
 
 #home {
-    
+    font-size: 60px;
     padding-top: 300px;
     margin: 0;
     /* background-color: rgba(0, 0, 0, 0.1); */
