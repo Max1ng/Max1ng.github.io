@@ -46,9 +46,12 @@
     font-size: 30px;
 }
 
-body {
+html, body {
     margin: 0;
+    padding: 0;
     width: 100%;
+    background-image: linear-gradient(to bottom left, #161229, #0207a6);
+    background-size: cover;
 }
 
 .body {
