@@ -97,9 +97,9 @@ body {
     transition: filter 0.5s;
 }
 
-.linkedin:hover img,
-.github:hover img {
-    filter: grayscale(0%) brightness(150%) hue-rotate(180deg);
+.linkedin :hover img,
+.github :hover img {
+    filter: brightness(150%) hue-rotate(180deg);
 }
 
 
@@ -176,5 +176,5 @@ body {
     /* background-color: rgba(0, 0, 0, 0.1); */
     text-align: center;
     color: whitesmoke;
-    height: 1080px;
+    height: 600px;
 }
