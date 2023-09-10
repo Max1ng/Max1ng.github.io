@@ -78,6 +78,14 @@ body {
     text-align: center;
     
 } */
+.linkedin {
+    margin-right: 10px; /* Adjust the spacing as needed */
+}
+
+.github {
+    margin-left: 10px; /* Adjust the spacing as needed */
+}
+
 .linkedin,
 .github {
     background: transparent;
@@ -100,16 +108,16 @@ body {
 #experience h1,
 #projects h1,
 #contact h1 {
-    font-size: 60px; /* Adjust the size as needed */
+    font-size: 60px; 
 }
 
-/* Set the font size for paragraph text (p elements) */
+
 #home p,
 #about p,
 #experience p,
 #projects p,
 #contact p {
-    font-size: 30px; /* Adjust the size as needed */
+    font-size: 30px;
 }
 
 #home {
