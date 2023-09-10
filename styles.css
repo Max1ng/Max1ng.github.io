@@ -86,7 +86,7 @@ body {
     background: transparent;
     border: none;
     padding: 0;
-    margin: 0 20px;
+    margin: 10px 20px;
     transition: filter 0.5s;
 }
 
@@ -111,7 +111,7 @@ body {
 #experience h1,
 #projects h1,
 #contact h1 {
-    font-size: 60px; 
+    font-size: 70px; 
 }
 
 
@@ -120,7 +120,7 @@ body {
 #experience p,
 #projects p,
 #contact p {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 #home {
