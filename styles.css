@@ -56,38 +56,46 @@ html, body, header {
 }
 
 
-.body {
+/* .body {
     padding: 0;
     margin: 0;
     background-color: black;
     color: whitesmoke;
     text-align: center;
     
+} */
+#home {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: whitesmoke;
+    height: 1080px;
 }
 
 #about {
     padding: 0;
     margin: 0;
     background-color: rgba(0, 0, 0, 0.1);
-    opacity: 0.1;
     text-align: center;
     color: whitesmoke;
+    height: 1080px;
 }
 
 #experience {
     padding: 0;
     margin: 0;
     background-color: rgba(0, 0, 0, 0.1);
-    opacity: 0.1;
     text-align: center;
     color: whitesmoke;
+    height: 1080px;
 }
 
 #projects {
     padding: 0;
     margin: 0;
     background-color: rgba(0, 0, 0, 0.1);
-    opacity: 0.1;
     text-align: center;
     color: whitesmoke;
+    height: 1080px;
 }
