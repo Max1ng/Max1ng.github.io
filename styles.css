@@ -14,7 +14,7 @@ html, body {
     background-color: #333; /* Change the background color when fixed */
     width: 100%;
     border-bottom: 1px solid whitesmoke;
-    z-index: 100; /* Ensure it appears above other content */
+    /*z-index: 100; /* Ensure it appears above other content */
 }
 
 .navbar {
