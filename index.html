@@ -1,42 +1,57 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html lang="en"">
 <head>
-    <link rel=" stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body style="background-image: linear-gradient(to bottom left, #c41306, #161229);">
-    
-    <div class="navbar", style="height: 50px;">
-        <a href="#" id="homeButton">Home</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <!-- <a href="#" class="right">Link</a> -->
+<body style="background-image: linear-gradient(to bottom left, #161229, #570803);">
+    <div class="navbar" style="height: 50px;">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
     </div>
 
-
-    <div class="header" style="height: 1000px;">
+    <div class="header" id="home" style="height: 1000px;">
         <h1>Max Toth</h1>
         <p>[TBD]</p>
     </div>
 
+    <div class="body" id="about">
+        <h1>[About]</h1>
+        <p>[About content]</p>
+    </div>
 
+    <div class="body" id="services">
+        <h1>[Services]</h1>
+        <p>[Services content]</p>
+    </div>
 
-    <div class="body"">
-        <h1>[Header]</h1>
-        <p>[Cool Stuff]</p>
+    <div class="body" id="contact">
+        <h1>[Contact]</h1>
+        <p>[Contact content]</p>
     </div>
 </body>
+
 </html>
 
-<script>
-    // Get a reference to the "Home" button by its id
-    var homeButton = document.getElementById("homeButton");
 
-    // Add a click event listener to the button
-    homeButton.addEventListener("click", function() {
-        // Add your desired functionality here
-        alert("You clicked the Home button!");
+<script>
+    // Add smooth scrolling to anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        });
     });
 </script>
