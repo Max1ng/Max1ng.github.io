@@ -7,6 +7,15 @@ html, body {
     background-size: cover;
     scroll-behavior: smooth;
 }
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333; /* Change the background color when fixed */
+    width: 100%;
+    border-bottom: 1px solid whitesmoke;
+    z-index: 100; /* Ensure it appears above other content */
+}
 
 .navbar {
     position: fixed;
