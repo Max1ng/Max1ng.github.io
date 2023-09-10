@@ -9,6 +9,7 @@ html, body, header {
 }
 
 .navbar {
+    position: fixed;
     padding: 0;
     margin: 0;
     overflow: hidden;
@@ -44,7 +45,7 @@ html, body, header {
     color: black;
 }
 
-.header {
+/* .header {
     padding: 0;
     margin: 0;
     text-align: center;
@@ -53,7 +54,7 @@ html, body, header {
     background-position: center;
     color: whitesmoke;
     font-size: 30px;
-}
+} */
 
 
 /* .body {
