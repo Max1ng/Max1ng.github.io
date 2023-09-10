@@ -86,14 +86,22 @@ body {
     background: transparent;
     border: none;
     padding: 0;
-    margin: 0 50px;
+    margin: 0 20px;
+    transition: filter 0.5s;
 }
 
 .linkedin img,
 .github img {
     width: 50px;
     height: 50px;
+    transition: filter 0.5s;
 }
+
+.linkedin:hover img,
+.github:hover img {
+    filter: grayscale(0%) brightness(150%) hue-rotate(180deg);
+}
+
 
 
 
