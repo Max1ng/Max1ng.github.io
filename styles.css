@@ -1,5 +1,6 @@
 /* Style the top navigation bar */
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -7,11 +8,13 @@ html, body {
     background-size: cover;
     scroll-behavior: smooth;
 }
+
 .fixed-navbar {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #333; /* Change the background color when fixed */
+    background-color: #333;
+    /* Change the background color when fixed */
     width: 100%;
     border-bottom: 1px solid whitesmoke;
     /*z-index: 100; /* Ensure it appears above other content */
@@ -43,6 +46,7 @@ html, body {
 .navbar a:first-child {
     color: darkorange;
 }
+
 /* Right-aligned link */
 /* .navbar a.right {
     float: right;
@@ -74,6 +78,14 @@ html, body {
     text-align: center;
     
 } */
+.linkedin {
+    cursor: pointer;
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+}
+
+
 
 
 #about h1,
@@ -99,7 +111,7 @@ html, body {
 }
 
 #about {
-    
+
     padding-top: 300px;
     margin: 0;
     /* background-color: rgba(0, 0, 0, 0.1); */
@@ -109,7 +121,7 @@ html, body {
 }
 
 #experience {
-    
+
     padding-top: 300px;
     margin: 0;
     /* background-color: rgba(0, 0, 0, 0.1); */
@@ -119,7 +131,7 @@ html, body {
 }
 
 #projects {
-    
+
     padding-top: 300px;
     margin: 0;
     /* background-color: rgba(0, 0, 0, 0.1); */
