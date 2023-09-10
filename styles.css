@@ -81,7 +81,7 @@ body {
 .linkedin {
     box-shadow: none;
     border: none;
-    padding: 0;
+    padding: 30px;
     margin: 0;
     align-items: center;
     background-color: transparent;
@@ -99,7 +99,7 @@ body {
 .github {
     box-shadow: none;
     border: none;
-    padding: 0;
+    padding: 30px;
     margin: 0;
     align-items: center;
     background-color: transparent;
@@ -117,7 +117,7 @@ body {
 
 
 
-#about h1,
+/* #about h1,
 #experience h1,
 #projects h1 {
     font-size: 70px;
@@ -127,7 +127,7 @@ body {
 #experience p,
 #projects p {
     font-size: 30px;
-}
+} */
 
 #home {
     /* h1 {
@@ -136,6 +136,7 @@ body {
     p {
         font-size: 30px;;
     } */
+    font-size: 75;
     padding-top: 300px;
     margin: 0;
     /* background-color: rgba(0, 0, 0, 0.1); */
