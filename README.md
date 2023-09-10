@@ -1,2 +1,3 @@
 # Max1ng.github.io
-Website about me!
+My website!
+- Built using html, css, and javascript
