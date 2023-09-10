@@ -76,7 +76,6 @@ html, body {
 } */
 #home {
     padding-top: 300px;
-    padding: 0;
     margin: 0;
     /* background-color: rgba(0, 0, 0, 0.1); */
     text-align: center;
@@ -86,7 +85,6 @@ html, body {
 
 #about {
     padding-top: 300px;
-    padding: 0;
     margin: 0;
     /* background-color: rgba(0, 0, 0, 0.1); */
     text-align: center;
@@ -96,7 +94,6 @@ html, body {
 
 #experience {
     padding-top: 300px;
-    padding: 0;
     margin: 0;
     /* background-color: rgba(0, 0, 0, 0.1); */
     text-align: center;
@@ -106,7 +103,6 @@ html, body {
 
 #projects {
     padding-top: 300px;
-    padding: 0;
     margin: 0;
     /* background-color: rgba(0, 0, 0, 0.1); */
     text-align: center;
