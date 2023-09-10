@@ -81,7 +81,7 @@ body {
 .linkedin {
     box-shadow: none;
     border: none;
-    padding: 30px;
+    padding-right: 30px;
     margin: 0;
     align-items: center;
     background-color: transparent;
@@ -89,7 +89,9 @@ body {
     height: 50px;
 }
 .linkedin img{
-    padding: 0;
+    box-shadow: none;
+    border: none;
+    padding-right: 30px;
     margin: 0;
     align-items: center;
     background-color: transparent;
@@ -99,7 +101,7 @@ body {
 .github {
     box-shadow: none;
     border: none;
-    padding: 30px;
+    padding-left: 30px;
     margin: 0;
     align-items: center;
     background-color: transparent;
@@ -107,7 +109,9 @@ body {
     height: 50px;
 }
 .github img{
-    padding: 0;
+    box-shadow: none;
+    border: none;
+    padding-left: 30px;
     margin: 0;
     align-items: center;
     background-color: transparent;
@@ -136,7 +140,7 @@ body {
     p {
         font-size: 30px;;
     } */
-    font-size: 75;
+    font-size: 75px;
     padding-top: 300px;
     margin: 0;
     /* background-color: rgba(0, 0, 0, 0.1); */
@@ -166,6 +170,16 @@ body {
 }
 
 #projects {
+
+    padding-top: 300px;
+    margin: 0;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    text-align: center;
+    color: whitesmoke;
+    height: 1080px;
+}
+
+#contact {
 
     padding-top: 300px;
     margin: 0;
