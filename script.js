@@ -1,14 +1,3 @@
-// Helper function to check if an element is in the viewport
-function isElementInViewport(el) {
-    const rect = el.getBoundingClientRect();
-    return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-    );
-}
-
 // Add smooth scrolling to anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -26,24 +15,32 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Update the navbar class based on scroll position
-window.addEventListener('scroll', function () {
-    const navbar = document.querySelector('.navbar');
-    if (window.scrollY > 0) {
-        navbar.classList.add('fixed-navbar');
-    } else {
-        navbar.classList.remove('fixed-navbar');
-    }
+// Helper function to update the active link based on the section in the viewport
+function updateActiveLink(entries, observer) {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const sectionId = entry.target.id;
+            const navLink = document.querySelector(`.nav-link[href="#${sectionId}"]`);
+            
+            // Remove the 'active-link' class from all links
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active-link');
+            });
 
-    // Check which section is in the viewport and update the active link
-    document.querySelectorAll('.nav-link').forEach(link => {
-        const sectionId = link.getAttribute('href').substring(1);
-        const section = document.getElementById(sectionId);
-
-        if (section && isElementInViewport(section)) {
-            link.classList.add('active-link');
-        } else {
-            link.classList.remove('active-link');
+            // Add the 'active-link' class to the corresponding link
+            if (navLink) {
+                navLink.classList.add('active-link');
+            }
         }
     });
+}
+
+// Set up Intersection Observers for each section
+document.querySelectorAll('.section').forEach(section => {
+    const observer = new IntersectionObserver(updateActiveLink, {
+        root: null,
+        threshold: 0.5, // Adjust this threshold as needed
+    });
+
+    observer.observe(section);
 });
