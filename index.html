@@ -3,39 +3,41 @@
 
 <head>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .fixed-navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 
-<body style="background-image: linear-gradient(to bottom left, #161229, #570803);">
-    <div class="navbar" style="height: 50px;">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-    </div>
-
-    <div class="header" id="home" style="height: 1000px;">
+<body style="background-image: linear-gradient(to bottom left, #161229, #0207a6);">
+    <div class="header" id="home" style="height: 100%;">
         <h1>Max Toth</h1>
         <p>[TBD]</p>
     </div>
 
-    <div class="body" id="about" style="height: 1000px;">
+    <div class="body" id="about" style="height: 100%;">
         <h1>[About]</h1>
         <p>[About content]</p>
     </div>
 
-    <div class="body" id="services" style="height: 1000px;"">
+    <div class="body" id="services" style="height: 100%;">
         <h1>[Services]</h1>
         <p>[Services content]</p>
     </div>
 
-    <div class="body" id="contact" style="height: 1000px;"">
+    <div class="body" id="contact" style="height: 100%;">
         <h1>[Contact]</h1>
         <p>[Contact content]</p>
     </div>
+
+
 </body>
 
 </html>
-
 
 <script>
     // Add smooth scrolling to anchor links
@@ -53,5 +55,14 @@
                 });
             }
         });
+    });
+
+    window.addEventListener('scroll', function () {
+        const navbar = document.querySelector('.navbar');
+        if (window.scrollY > 0) {
+            navbar.classList.add('fixed-navbar');
+        } else {
+            navbar.classList.remove('fixed-navbar');
+        }
     });
 </script>

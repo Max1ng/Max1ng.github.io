@@ -62,7 +62,7 @@ body {
 #about {
     padding: 0;
     margin: 0;
-    background-color: white;
+    background-color: black;
     opacity: 0.1;
     text-align: center;
     color: whitesmoke;
@@ -71,7 +71,7 @@ body {
 #services {
     padding: 0;
     margin: 0;
-    background-color: white;
+    background-color: black;
     opacity: 0.1;
     text-align: center;
     color: whitesmoke;
@@ -80,7 +80,7 @@ body {
 #contact {
     padding: 0;
     margin: 0;
-    background-color: white;
+    background-color: black;
     opacity: 0.1;
     text-align: center;
     color: whitesmoke;
