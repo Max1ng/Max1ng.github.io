@@ -5,10 +5,10 @@
     <link rel=" stylesheet" href="styles.css">
 </head>
 
-<body style="background-image: linear-gradient(to bottom left, #370561, #161229);">
+<body style="background-image: linear-gradient(to bottom left, #c41306, #161229);">
     
     <div class="navbar", style="height: 50px;">
-        <a href="#">Home</a>
+        <a href="#" id="homeButton">Home</a>
         <a href="#">Link</a>
         <a href="#">Link</a>
         <a href="#">Link</a>
@@ -29,3 +29,14 @@
     </div>
 </body>
 </html>
+
+<script>
+    // Get a reference to the "Home" button by its id
+    var homeButton = document.getElementById("homeButton");
+
+    // Add a click event listener to the button
+    homeButton.addEventListener("click", function() {
+        // Add your desired functionality here
+        alert("You clicked the Home button!");
+    });
+</script>
