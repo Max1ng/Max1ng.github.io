@@ -45,6 +45,10 @@
     color: whitesmoke;
     font-size: 30px;
 }
+body {
+    margin: 0;
+    width: 100%;
+}
 
 .body {
     padding: 0;
