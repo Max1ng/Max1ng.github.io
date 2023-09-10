@@ -74,13 +74,22 @@ html, body {
     text-align: center;
     
 } */
+
+#home h1,
+#about h1,
+#experience h1,
+#projects h1 {
+    font-size: 60px;
+}
+#home p,
+#about p,
+#experience p,
+#projects p {
+    font-size: 30px;
+}
+
 #home {
-    h1 {
-        font-size: 60px;
-    }
-    p {
-        font-size: 30px;
-    }
+    
     padding-top: 300px;
     margin: 0;
     /* background-color: rgba(0, 0, 0, 0.1); */
@@ -90,12 +99,7 @@ html, body {
 }
 
 #about {
-    h1 {
-        font-size: 60px;
-    }
-    p {
-        font-size: 30px;
-    }
+    
     padding-top: 300px;
     margin: 0;
     /* background-color: rgba(0, 0, 0, 0.1); */
@@ -105,12 +109,7 @@ html, body {
 }
 
 #experience {
-    h1 {
-        font-size: 60px;
-    }
-    p {
-        font-size: 30px;
-    }
+    
     padding-top: 300px;
     margin: 0;
     /* background-color: rgba(0, 0, 0, 0.1); */
@@ -120,12 +119,7 @@ html, body {
 }
 
 #projects {
-    h1 {
-        font-size: 60px;
-    }
-    p {
-        font-size: 30px;
-    }
+    
     padding-top: 300px;
     margin: 0;
     /* background-color: rgba(0, 0, 0, 0.1); */
