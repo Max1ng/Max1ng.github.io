@@ -78,64 +78,39 @@ body {
     text-align: center;
     
 } */
-.linkedin {
-    box-shadow: none;
-    border: none;
-    padding: 30px;
-    margin: 0;
-    left: 50%;
-    right: 50%;
-    background-color: transparent;
-    width: 50px;
-    height: 50px;
-}
-.linkedin img{
-    box-shadow: none;
-    border: none;
-    padding: 30px;
-    margin: 0;
-    left: 50%;
-    right: 50%;
-    background-color: transparent;
-    width: 50px;
-    height: 50px;
-}
+.linkedin,
 .github {
-    box-shadow: none;
+    background: transparent;
     border: none;
-    padding: 30px;
+    padding: 0;
     margin: 0;
-    left: 50%;
-    right: 50%;
-    background-color: transparent;
-    width: 50px;
-    height: 50px;
 }
-.github img{
-    box-shadow: none;
-    border: none;
-    padding: 30px;
-    margin: 0;
-    left: 50%;
-    right: 50%;
-    background-color: transparent;
+
+.linkedin img,
+.github img {
     width: 50px;
     height: 50px;
 }
 
 
 
-/* #about h1,
+
+#home h1,
+#about h1,
 #experience h1,
-#projects h1 {
-    font-size: 70px;
+#projects h1,
+#contact h1 {
+    font-size: 60px; /* Adjust the size as needed */
 }
 
+/* Set the font size for paragraph text (p elements) */
+#home p,
 #about p,
 #experience p,
-#projects p {
-    font-size: 30px;
-} */
+#projects p,
+#contact p {
+    font-size: 30px; /* Adjust the size as needed */
+}
 
 #home {
     /* h1 {
@@ -144,7 +119,6 @@ body {
     p {
         font-size: 30px;;
     } */
-    font-size: 60px;
     padding-top: 300px;
     margin: 0;
     /* background-color: rgba(0, 0, 0, 0.1); */
