@@ -78,20 +78,15 @@ body {
     text-align: center;
     
 } */
-.linkedin {
-    margin-right: 60px; /* Adjust the spacing as needed */
-}
 
-.github {
-    margin-left: 60px; /* Adjust the spacing as needed */
-}
 
 .linkedin,
 .github {
+    display: inline-block;
     background: transparent;
     border: none;
     padding: 0;
-    margin: 0;
+    margin: 0 50px;
 }
 
 .linkedin img,
