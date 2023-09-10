@@ -43,9 +43,14 @@ body {
     text-decoration: none;
 }
 
-.navbar a:first-child {
-    color: darkorange;
+.nav-link.active-link {
+    color: darkorange; /* Change the color for the active link */
+    font-weight: bold; /* Make the active link bold */
 }
+
+/* .navbar a:first-child {
+    color: darkorange;
+} */
 
 /* Right-aligned link */
 /* .navbar a.right {
@@ -100,6 +105,7 @@ body {
 .linkedin :hover img,
 .github :hover img {
     filter: brightness(150%) hue-rotate(180deg);
+    background-color: aqua;
 }
 
 
