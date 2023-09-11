@@ -102,8 +102,8 @@ body {
     transition: filter 0.5s;
 }
 
-.linkedin :hover img,
-.github :hover img {
+.linkedin:hover img,
+.github:hover img {
     filter: brightness(150%) sepia(1) hue-rotate(132deg) saturate(103%);
 }
 
