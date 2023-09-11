@@ -104,8 +104,7 @@ body {
 
 .linkedin :hover img,
 .github :hover img {
-    filter: brightness(150%) hue-rotate(180deg);
-    background-color: aqua;
+    filter: brightness(150%) sepia(1) hue-rotate(132deg) saturate(103%);
 }
 
 
@@ -150,7 +149,7 @@ body {
 
 #about {
 
-    padding-top: 300px;
+    padding-top: 170px;
     margin: 0;
     /* background-color: rgba(0, 0, 0, 0.1); */
     text-align: center;
@@ -160,7 +159,7 @@ body {
 
 #experience {
 
-    padding-top: 300px;
+    padding-top: 170px;
     margin: 0;
     /* background-color: rgba(0, 0, 0, 0.1); */
     text-align: center;
@@ -170,7 +169,7 @@ body {
 
 #projects {
 
-    padding-top: 300px;
+    padding-top: 170px;
     margin: 0;
     /* background-color: rgba(0, 0, 0, 0.1); */
     text-align: center;
