@@ -286,6 +286,17 @@ body {
     margin-right: auto;
 }
 
+#projects a {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+#projects a:hover {
+    color: lightskyblue;
+    text-decoration: underline;
+}
+
+
 #contact {
 
     padding-top: 300px;
