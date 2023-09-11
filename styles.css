@@ -163,6 +163,7 @@ body {
     padding-top: 170px;
     max-width: 1000px;
     left: 50%;
+    transform: translateX(-50%);
     text-align: center;
     color: whitesmoke;
     height: 1080px;
