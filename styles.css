@@ -7,6 +7,7 @@ body {
     background-image: linear-gradient(to bottom left, #000000, #32214a);
     background-size: cover;
     scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .fixed-navbar {
@@ -104,7 +105,7 @@ body {
 
 .linkedin:hover img,
 .github:hover img {
-    filter: brightness(50%) sepia(1) hue-rotate(132deg) saturate(103.2%) brightness(91.2%);
+    filter: brightness(50%) sepia(1) hue-rotate(30deg) saturate(103.2%) brightness(91.2%);
 }
 
 .linkedin-contact {
@@ -116,7 +117,7 @@ body {
     border: none;
 
 }
-.linkedin-contact a:hover img {
+.linkedin-contact a:hover {
     color: lightskyblue;
 }
 
