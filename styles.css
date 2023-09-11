@@ -107,7 +107,7 @@ body {
 
 .linkedin:hover img,
 .github:hover img {
-    filter: brightness(50%) sepia(1) hue-rotate(80deg) saturate(150%) brightness(100%);
+    filter: brightness(50%) sepia(1) hue-rotate(80deg) saturate(200%) brightness(100%);
 }
 
 .linkedin-contact {
@@ -133,12 +133,12 @@ body {
 }
 
 .resume-download img {
-    width: 60px;
+    width: 100px;
     height: auto;
 }
 
 .resume-download:hover {
-    filter: brightness(50%) sepia(1) hue-rotate(30deg) saturate(150%) brightness(100%);
+    filter: brightness(50%) sepia(1) hue-rotate(80deg) saturate(200%) brightness(100%);
 }
 
 
