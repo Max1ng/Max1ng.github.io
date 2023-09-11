@@ -104,7 +104,7 @@ body {
 
 .linkedin:hover img,
 .github:hover img {
-    filter: brightness(150%) sepia(1) hue-rotate(30deg) saturate(150%);
+    filter: brightness(50%) sepia(1) hue-rotate(132deg) saturate(103.2%) brightness(91.2%);
 }
 
 .linkedin-contact {
@@ -116,7 +116,7 @@ body {
     border: none;
 
 }
-.linkedin-contact:hover img {
+.linkedin-contact a:hover img {
     color: lightskyblue;
 }
 
