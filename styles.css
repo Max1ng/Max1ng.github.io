@@ -94,6 +94,7 @@ body {
     padding: 0;
     margin: 10px 10px;
     transition: filter 0.5s;
+    vertical-align: middle;
 }
 
 .linkedin img,
@@ -143,6 +144,8 @@ body {
 #about h6 {
     font-size: 25px;
     color: gray;
+    padding: 0;
+    margin: 0;
 }
 
 #home p,
