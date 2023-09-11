@@ -185,6 +185,10 @@ body {
     margin: 0;
 }
 
+#projects h2 {
+    font-size: 30px;
+}
+
 #home p,
 #about p,
 #experience p,
@@ -269,7 +273,10 @@ body {
     /* background-color: rgba(0, 0, 0, 0.1); */
     text-align: center;
     color: whitesmoke;
-    height: 1080px;
+    max-width: 60%;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #contact {
