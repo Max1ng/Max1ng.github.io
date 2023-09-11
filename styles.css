@@ -169,10 +169,9 @@ body {
     color: whitesmoke;
     height: 1080px;
 }
-
-#pfp {
-    width: 50;
-    height: 50;
+#about img {
+    width: 50px;
+    height: auto;
     left: 35%;
 }
 
