@@ -148,6 +148,25 @@ body {
     margin: 0;
 }
 
+#experience h2 {
+    font-size: 30px;
+    color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+#experience h6 {
+    font-size: 20px;
+    color: #404040;
+    padding: 0;
+    margin: 0;
+}
+#experience h4 {
+    font-size: 25px;
+    color: darkgray;
+    padding: 0;
+    margin: 0;
+}
+
 #home p,
 #about p,
 #experience p,
@@ -167,7 +186,7 @@ body {
 
 #about {
     padding-top: 170px;
-    max-width: 800px;
+    max-width: 45%;
 /*     left: 50%;
     right: 50%; */
     margin-left: auto;
@@ -220,6 +239,7 @@ body {
     text-align: center;
     color: whitesmoke;
     height: 1080px;
+    max-width: 75%;
 }
 
 #projects {
