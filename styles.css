@@ -173,6 +173,7 @@ body {
     text-align: center;
     color: whitesmoke;
     height: auto;
+    padding-bottom: 600px;
 }
 
 #about {
@@ -183,6 +184,7 @@ body {
     text-align: center;
     color: whitesmoke;
     height: auto;
+    padding-bottom: 150px;
 }
 
 #about .about-content {
@@ -225,6 +227,7 @@ body {
     max-width: 60%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 150px;
 }
 
 #projects {
@@ -237,6 +240,7 @@ body {
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 150px;
 }
 
 #projects a {
@@ -256,4 +260,5 @@ body {
     text-align: center;
     color: whitesmoke;
     height: auto;
+    padding-bottom: 150px;
 }
