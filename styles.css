@@ -107,6 +107,11 @@ body {
     filter: brightness(150%) sepia(1) hue-rotate(132deg) saturate(103%);
 }
 
+.linkedin-contact {
+    background: transparent;
+    font-size: 25px;
+    color: darkblue;
+}
 
 
 
