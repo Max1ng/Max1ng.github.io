@@ -161,8 +161,8 @@ body {
     margin: 0;
 }
 #experience h4 {
-    font-size: 20px;
-    color: #696969;
+    font-size: 25px;
+    color: #8a8888;
     padding: 0;
     margin: 0;
 }
@@ -181,7 +181,7 @@ body {
     margin: 0;
     text-align: center;
     color: whitesmoke;
-    height: 1080px;
+    height: 800px;
 }
 
 #about {
