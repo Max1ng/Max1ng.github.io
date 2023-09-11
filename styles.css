@@ -160,19 +160,29 @@ body {
 }
 
 
-#about {
-
-    padding-top: 170px;
-    margin: 0;
-    /* background-color: rgba(0, 0, 0, 0.1); */
-    text-align: center;
-    color: whitesmoke;
-    height: 1080px;
+#about .about-content {
+    display: flex;
+    justify-content: space-between; /* Spread columns evenly */
+    align-items: center; /* Center vertically */
 }
-#about img {
-    width: 50px;
-    height: auto;
-    left: 35%;
+
+
+#about .about-text {
+    flex: 1; /* Allow this column to grow and take available space */
+    margin-left: 20px; /* Add some spacing between columns */
+}
+
+.profile-picture {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 70%;
+}
+
+.profile-picture img {
+    width: 100%; /* Ensure the image fills the container */
+    height: 100%; /* Ensure the image fills the container */
+    object-fit: cover; /* Maintain the aspect ratio and cover the container */
 }
 
 
