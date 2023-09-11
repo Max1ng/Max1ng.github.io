@@ -124,7 +124,7 @@ body {
 }
 
 .resume-download {
-    width: 100px;
+    width: 160px;
     height: auto;
     background: transparent;
     border: 0;
@@ -133,7 +133,7 @@ body {
 }
 
 .resume-download img {
-    width: 100px;
+    width: 160px;
     height: auto;
 }
 
