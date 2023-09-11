@@ -140,6 +140,11 @@ body {
     text-decoration: underline;
 }
 
+#about h6 {
+    font-size: 25px;
+    color: gray;
+}
+
 #home p,
 #about p,
 #experience p,
