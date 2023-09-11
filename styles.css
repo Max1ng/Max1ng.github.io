@@ -159,6 +159,13 @@ body {
     height: 1080px;
 }
 
+#about {
+    padding-top: 170px;
+    max-width: 600px;
+    text-align: center;
+    color: whitesmoke;
+    height: 1080px;
+}
 
 #about .about-content {
     display: flex;
@@ -173,11 +180,11 @@ body {
 }
 
 .profile-picture {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
     border-radius: 70%;
-}
+} 
 
 .profile-picture img {
     width: 100%; /* Ensure the image fills the container */
