@@ -111,8 +111,10 @@ body {
     display: inline-block;
     background: transparent;
     font-size: 25px;
-    color: darkblue;
+    color: lightskyblue;
     text-decoration: none;
+    border: none;
+
 }
 
 
