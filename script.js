@@ -17,7 +17,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Function to highlight the active link based on scroll position
 function highlightActiveLink() {
-    const scrollPosition = window.scrollY;
+    const scrollPosition = window.scrollY - 200;
 
     document.querySelectorAll('.section').forEach(section => {
         const sectionTop = section.offsetTop;
