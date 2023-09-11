@@ -161,7 +161,8 @@ body {
 
 #about {
     padding-top: 170px;
-    max-width: 600px;
+    max-width: 1000px;
+    left: 50%;
     text-align: center;
     color: whitesmoke;
     height: 1080px;
@@ -177,7 +178,7 @@ body {
 .column {
     flex: 1;
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 /* #about .about-text {
@@ -190,6 +191,8 @@ body {
     height: 200px;
     overflow: hidden;
     border-radius: 70%;
+    border-style: double;
+    border-color: white;
 } 
 
 .profile-picture img {
