@@ -179,7 +179,7 @@ body {
     margin: 0;
 }
 #experience h4 {
-    margin-top: 20px;
+    margin-top: 50px;
     font-size: 25px;
     color: #8a8888;
     padding: 0;
@@ -188,6 +188,12 @@ body {
 
 #projects h2 {
     font-size: 30px;
+}
+
+#experience h3 {
+    font-size: 25px;
+    text-decoration: underline;
+    margin-top: 50px;
 }
 
 #home p,
