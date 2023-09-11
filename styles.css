@@ -181,7 +181,7 @@ body {
 #about .about-content {
     display: flex;
     justify-content: space-between; /* Spread columns evenly */
-    align-items: center; /* Center vertically */
+    align-items: start;
     margin-top: 30px;
 }
 
