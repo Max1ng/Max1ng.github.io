@@ -1,4 +1,3 @@
-/* Style the top navigation bar */
 html,
 body {
     margin: 0;
@@ -15,7 +14,6 @@ body {
     top: 0;
     left: 0;
     background-color: #333;
-    /* Change the background color when fixed */
     width: 100%;
     border-bottom: 1px solid whitesmoke;
     z-index: 100; /* Ensure it appears above other content */
@@ -28,16 +26,12 @@ body {
     overflow: hidden;
     width: 100%;
     border-bottom: 1px solid whitesmoke;
-    /* Add a white line beneath the navbar */
     background-color: transparent;
     text-align: center;
-    /* Center the content horizontally */
 }
 
-/* Style the navigation bar links */
 .navbar a {
     display: inline-block;
-    /* Display links as blocks to center them horizontally */
     color: white;
     text-align: center;
     padding: 14px 20px;
@@ -45,46 +39,14 @@ body {
 }
 
 .nav-link.active-link {
-    color: darkorange; /* Change the color for the active link */
-    font-weight: bold; /* Make the active link bold */
+    color: darkorange;
+    font-weight: bold;
 }
 
-/* .navbar a:first-child {
-    color: darkorange;
-} */
-
-/* Right-aligned link */
-/* .navbar a.right {
-    float: right;
-} */
-
-/* Change color on hover/mouse-over */
 .navbar a:hover {
     background-color: #ddd;
     color: black;
 }
-
-/* .header {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: whitesmoke;
-    font-size: 30px;
-} */
-
-
-/* .body {
-    padding: 0;
-    margin: 0;
-    background-color: black;
-    color: whitesmoke;
-    text-align: center;
-    
-} */
-
 
 .linkedin,
 .github {
@@ -115,12 +77,13 @@ body {
     background: transparent;
     font-size: 25px;
     color: whitesmoke;
-    text-decoration: none;
+    text-decoration: underline;
     border: none;
 
 }
 .linkedin-contact:hover {
     color: lightskyblue;
+    text-decoration: underline;
 }
 
 .resume-download {
@@ -140,7 +103,6 @@ body {
 .resume-download:hover {
     filter: brightness(50%) sepia(1) hue-rotate(80deg) saturate(200%) brightness(100%);
 }
-
 
 
 #home h1 {
@@ -216,11 +178,8 @@ body {
 #about {
     padding-top: 50px;
     max-width: 45%;
-/*     left: 50%;
-    right: 50%; */
     margin-left: auto;
     margin-right: auto;
-    /* transform: translateX(67%); */
     text-align: center;
     color: whitesmoke;
     height: 1080px;
@@ -228,7 +187,7 @@ body {
 
 #about .about-content {
     display: flex;
-    justify-content: space-between; /* Spread columns evenly */
+    justify-content: space-between;
     align-items: start;
     margin-top: 30px;
 }
@@ -239,10 +198,6 @@ body {
     text-align: left;
 }
 
-/* #about .about-text {
-    flex: 1; 
-    margin-left: 20px; 
-} */
 
 .profile-picture {
     width: 200px;
@@ -254,9 +209,9 @@ body {
 } 
 
 .profile-picture img {
-    width: 100%; /* Ensure the image fills the container */
-    height: 100%; /* Ensure the image fills the container */
-    object-fit: cover; /* Maintain the aspect ratio and cover the container */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
@@ -264,7 +219,6 @@ body {
 
     padding-top: 50px;
     margin: 0;
-    /* background-color: rgba(0, 0, 0, 0.1); */
     text-align: center;
     color: whitesmoke;
     height: 1600px;
@@ -277,7 +231,6 @@ body {
 
     padding-top: 50px;
     margin: 0;
-    /* background-color: rgba(0, 0, 0, 0.1); */
     text-align: center;
     color: whitesmoke;
     max-width: 60%;
@@ -296,12 +249,10 @@ body {
     text-decoration: underline;
 }
 
-
 #contact {
 
     padding-top: 300px;
     margin: 0;
-    /* background-color: rgba(0, 0, 0, 0.1); */
     text-align: center;
     color: whitesmoke;
     height: 600px;
