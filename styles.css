@@ -90,7 +90,7 @@ body {
 .github {
     display: inline-block;
     background: transparent;
-    border: none;
+    border: 0;
     padding: 0;
     margin: 10px 10px;
     transition: filter 0.5s;
@@ -185,7 +185,7 @@ body {
 }
 
 #about {
-    padding-top: 170px;
+    padding-top: 50px;
     max-width: 45%;
 /*     left: 50%;
     right: 50%; */
@@ -233,7 +233,7 @@ body {
 
 #experience {
 
-    padding-top: 170px;
+    padding-top: 50px;
     margin: 0;
     /* background-color: rgba(0, 0, 0, 0.1); */
     text-align: center;
@@ -246,7 +246,7 @@ body {
 
 #projects {
 
-    padding-top: 170px;
+    padding-top: 50px;
     margin: 0;
     /* background-color: rgba(0, 0, 0, 0.1); */
     text-align: center;
