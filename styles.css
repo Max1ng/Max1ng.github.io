@@ -123,6 +123,18 @@ body {
     color: lightskyblue;
 }
 
+.resume-download {
+    width: 60px;
+    height: auto;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0px;
+}
+
+.resume-download:hover {
+    filter: brightness(50%) sepia(1) hue-rotate(30deg) saturate(150%) brightness(100%);
+}
 
 
 
