@@ -179,6 +179,7 @@ body {
     margin: 0;
 }
 #experience h4 {
+    margin-top: 20px;
     font-size: 25px;
     color: #8a8888;
     padding: 0;
@@ -260,7 +261,7 @@ body {
     /* background-color: rgba(0, 0, 0, 0.1); */
     text-align: center;
     color: whitesmoke;
-    height: 1080px;
+    height: 1600px;
     max-width: 60%;
     margin-left: auto;
     margin-right: auto;
