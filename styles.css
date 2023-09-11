@@ -171,13 +171,19 @@ body {
     display: flex;
     justify-content: space-between; /* Spread columns evenly */
     align-items: center; /* Center vertically */
+    margin-top: 30px;
 }
 
-
-#about .about-text {
-    flex: 1; /* Allow this column to grow and take available space */
-    margin-left: 20px; /* Add some spacing between columns */
+.column {
+    flex: 1;
+    padding: 10px;
+    text-align: left;
 }
+
+/* #about .about-text {
+    flex: 1; 
+    margin-left: 20px; 
+} */
 
 .profile-picture {
     width: 200px;
