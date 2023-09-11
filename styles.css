@@ -135,6 +135,9 @@ body {
     font-size: 70px; 
 }
 
+#about h2 {
+    font-size: 35px;
+}
 
 #home p,
 #about p,
@@ -143,6 +146,7 @@ body {
 #contact p {
     font-size: 25px;
 }
+
 
 #home {
     /* h1 {
@@ -163,7 +167,7 @@ body {
     padding-top: 170px;
     max-width: 800px;
     left: 50%;
-    transform: translateX(50%);
+    transform: translateX(1120px);
     text-align: center;
     color: whitesmoke;
     height: 1080px;
