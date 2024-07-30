@@ -265,6 +265,8 @@ body {
     padding-bottom: 250px;
 }
 
+/* mobile stuff */
+
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -291,11 +293,11 @@ body {
     }
 
     h1 {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     h2 {
-        font-size: 1.2em;
+        font-size: 1.15em;
     }
 
     h4 {
